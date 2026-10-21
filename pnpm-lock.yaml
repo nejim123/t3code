@@ -66,6 +66,9 @@ overrides:
   expo-modules-jsi: 56.0.10
   expo-sharing>@expo/config-plugins: 56.0.9
   expo-sharing>@expo/config-types: 56.0.6
+  undici@>=6.23.0 <6.29.1: 6.29.1
+  undici@>=7.18.0 <7.30.1: 7.30.1
+  undici@>=8.0.0 <8.12.2: 8.12.2
   vite: npm:@voidzero-dev/vite-plus-core@0.2.2
   yaml: ^2.9.0
 
@@ -1877,6 +1880,7 @@ packages:
 
   '@distilled.cloud/cloudflare-rolldown-plugin@0.13.10':
     resolution: {integrity: sha512-UO9wjepZWYupWMf/KYKY7LUueHNawdp0qBGc9z3XYxjodrQaMwFQWtIGG1yWOHjTWl1BUx86A69hyB8kHYRAeA==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     peerDependencies:
       rolldown: ^1.1.5
       vite: ^7.0.0 || ^8.0.0
@@ -1901,6 +1905,7 @@ packages:
 
   '@distilled.cloud/cloudflare-vite-plugin@0.13.10':
     resolution: {integrity: sha512-O8lvG48OQcRkjwkCPUGdEGTtDuaKBlZWIMy+yTCAUnte/8rvixIxUj/PMX6lx4Prj2tx/ciqjRHl9qjtHL8KWA==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     peerDependencies:
       '@distilled.cloud/cloudflare': ^0.29.0
       '@distilled.cloud/cloudflare-runtime': 0.13.10
@@ -5184,10 +5189,12 @@ packages:
   '@xmldom/xmldom@0.8.13':
     resolution: {integrity: sha512-KRYzxepc14G/CEpEGc3Yn+JKaAeT63smlDr+vjB8jRfgTBBI9wRj/nkQEO+ucV8p8I9bfKLWp37uHgFrbntPvw==}
     engines: {node: '>=10.0.0'}
+    deprecated: this version has critical issues, please update to the latest version
 
   '@xmldom/xmldom@0.9.10':
     resolution: {integrity: sha512-A9gOqLdi6cV4ibazAjcQufGj0B1y/vDqYrcuP6d/6x8P27gRS8643Dj9o1dEKtB6O7fwxb2FgBmJS2mX7gpvdw==}
     engines: {node: '>=14.6'}
+    deprecated: this version has critical issues, please update to the latest version
 
   '@yuuang/ffi-rs-android-arm64@1.3.2':
     resolution: {integrity: sha512-eDYLT0kVBkp7e2BwdRDmt6N1rkeDPUHDefk3ZX0/nok+GLsqfy1WBoSL3Yg7HVXN1EyW8OBVc2uK8Zq8HbmaSA==}
@@ -9889,16 +9896,16 @@ packages:
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
-  undici@6.26.0:
-    resolution: {integrity: sha512-4yqz8a3n5HmGTlsbADNtr/dJlhkh/55Rq798G6ibiULcXbDtaLpTl1pvdqcbFfeoj3iSi52lePFM7h9H21cw/A==}
+  undici@6.29.1:
+    resolution: {integrity: sha512-EvRlUt/QqAEvXdQeRMYUfwOQsfzpDztykrG2owGEE/rBOBoYv9uF39ZzsNDh4lTFHhTr2XOZjKkYgueD12ZmGA==}
     engines: {node: '>=18.17'}
 
-  undici@7.27.1:
-    resolution: {integrity: sha512-UDdpiex+mzigiyrXrGbiUaF4HzTNhKbh2vRNFaTMzcqmLIPrZxaCtwo/1TMSuWoM1Xz3WiTo9KdgI3kRqYzJGg==}
+  undici@7.30.1:
+    resolution: {integrity: sha512-03KrMbjIFDWQR5RNPrSw3bd1r12JpyFQl9/yxjUbJtqkjmllqC5lFjZh6ujeuJCKr8EOQvRW872Oy/az+nLYxg==}
     engines: {node: '>=20.18.1'}
 
-  undici@8.9.0:
-    resolution: {integrity: sha512-aWZpUj7XoGonMClx4gdDRfgBjqeA+F473aDmROQQbM9n6PRfK/u1q/a0X4wMTgcHfT8H6fpbt98PFuDUwFg2YA==}
+  undici@8.12.2:
+    resolution: {integrity: sha512-XtuDWVdqTLr3NAxm2ly9/hU6kUsJOgGh1RASzMBbsw6aWCOaQzHdW+QQDfdERjfJ2V5vL5pRPa4RetO9UfivDg==}
     engines: {node: '>=22.19.0'}
 
   unenv@2.0.0-rc.24:
@@ -11844,7 +11851,7 @@ snapshots:
       effect: 4.0.0-beta.103(patch_hash=af36b7948b6f9c56623074662b51dade5699880c1a7c71245de73e13c3185fb6)
       ioredis: 5.11.0
       mime: 4.1.0
-      undici: 8.9.0
+      undici: 8.12.2
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -15486,7 +15493,7 @@ snapshots:
       picomatch: 4.0.4
       react: 19.2.6
       rolldown: 1.1.5
-      undici: 7.27.1
+      undici: 7.30.1
       yaml: 2.9.0
     optionalDependencies:
       '@effect/platform-bun': 4.0.0-beta.103(bufferutil@4.1.0)(effect@4.0.0-beta.103(patch_hash=af36b7948b6f9c56623074662b51dade5699880c1a7c71245de73e13c3185fb6))(utf-8-validate@6.0.6)
@@ -19256,7 +19263,7 @@ snapshots:
       semver: 7.8.5
       tar: 7.5.16
       tinyglobby: 0.2.17
-      undici: 6.26.0
+      undici: 6.29.1
       which: 6.0.1
 
   node-int64@0.4.0: {}
@@ -21154,11 +21161,11 @@ snapshots:
 
   undici-types@7.16.0: {}
 
-  undici@6.26.0: {}
+  undici@6.29.1: {}
 
-  undici@7.27.1: {}
+  undici@7.30.1: {}
 
-  undici@8.9.0: {}
+  undici@8.12.2: {}
 
   unenv@2.0.0-rc.24:
     dependencies:

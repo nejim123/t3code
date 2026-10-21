@@ -23,7 +23,7 @@ We wanted something performant, remote-ready, and truly open. If we ever go the 
 
 ### Try it out (install-free)
 
-The easiest way to test T3 Code is to run the server in your terminal (requires Node.js 22.16+, 23.11+, or 24.10+):
+The easiest way to test T3 Code is to run the server in your terminal (requires Node.js 22.23.4+ (22.x), 24.22.1+ (24.x), or 26.12.1+ (26.x)):
 
 ```bash
 npx t3@latest

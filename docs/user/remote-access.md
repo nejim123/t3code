@@ -143,7 +143,7 @@ The desktop SSH launcher connects with a non-interactive `sh` session, writes a 
 The remote host must have a compatible Node.js runtime. T3 Code uses the server package's `engines.node` requirement:
 
 ```text
-^22.16 || ^23.11 || >=24.10
+^22.23.4 || ^24.22.1 || ^26.12.1
 ```
 
 During SSH launch, T3 Code first checks whether `node` is on `PATH`. If it is missing, the launcher

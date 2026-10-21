@@ -4,7 +4,7 @@ T3 Code is a web and desktop GUI for running coding agents on your machine.
 
 ## Requirements
 
-Node.js `^22.16 || ^23.11 || >=24.10` on the machine that runs the T3 Code server.
+Node.js `^22.23.4 || ^24.22.1 || ^26.12.1` on the machine that runs the T3 Code server.
 
 At least one provider CLI, installed and authenticated. See [Providers](#providers) below.
 
